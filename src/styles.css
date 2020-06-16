@@ -6,6 +6,9 @@
 
 body {
   font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 990px;
+  margin: 0 auto;
 }
 
 div {
@@ -16,6 +19,12 @@ div {
 div li {
   display: flex;
   align-items: center;
+}
+
+li {
+  background-color: rgb(240, 240, 240);
+  padding: 0.5em;
+  justify-content: space-between;
 }
 
 div li + li {
